@@ -22,7 +22,7 @@
     </properties>
     <scm>
         <developerConnection>
-            scm:git@github.com:sugeakos/spring-pet-clinic.git
+            scm:https://github.com/sugeakos/spring-pet-clinic.git
         </developerConnection>
       <tag>0.0.3</tag>
   </scm>
