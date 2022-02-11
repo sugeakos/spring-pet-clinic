@@ -15,11 +15,11 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>pet-clinic</name>
     <description>pet-clinic</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
 
@@ -44,5 +44,8 @@
         </plugins>
         </pluginManagement>
     </build>
-
+    <scm>
+        <developerConnection>scm:git:git@github.com:sugeakos/spring-pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>
