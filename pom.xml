@@ -52,9 +52,10 @@
         </pluginManagement>
     </build>
     <scm>
+        <tag>HEAD</tag>
         <connection>scm:git:https://github.com/sugeakos/spring-pet-clinic.git</connection>
         <url>https://github.com/sugeakos/spring-pet-clinic.git</url>
         <developerConnection>scm:git:git@github.com:sugeakos/spring-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+
   </scm>
 </project>
