@@ -2,7 +2,6 @@ package guru.springframework.petclinic.services.map;
 
 import guru.springframework.petclinic.model.Owner;
 import guru.springframework.petclinic.model.Pet;
-import guru.springframework.petclinic.model.PetType;
 import guru.springframework.petclinic.services.OwnerService;
 import guru.springframework.petclinic.services.PetService;
 import guru.springframework.petclinic.services.PetTypeService;
@@ -11,12 +10,12 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
 
-    public OwnerServiceMap(PetTypeService petTypeService, PetService petService) {
+    public OwnerMapService(PetTypeService petTypeService, PetService petService) {
         this.petTypeService = petTypeService;
         this.petService = petService;
     }
