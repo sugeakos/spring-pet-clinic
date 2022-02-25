@@ -9,6 +9,7 @@ import javax.persistence.MappedSuperclass;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
 @MappedSuperclass
 public class Person extends BaseEntity{
 
